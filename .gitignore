@@ -1,0 +1,10 @@
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+jarvis_memory.db
+last_recording.wav
+rec_*.wav
+jarvis_voice_*.mp3
+*.png

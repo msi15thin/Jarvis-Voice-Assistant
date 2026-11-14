@@ -1,0 +1,40 @@
+QMainWindow {
+  background-color: #04070a;
+}
+
+QLabel#statusLabel {
+  color: #5fe3ff;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 14px 4px 4px 4px;
+  text-transform: uppercase;
+}
+
+QTextEdit#chatLog {
+  background-color: rgba(10, 16, 24, 0.9);
+  color: #d6f4ff;
+  border: 1px solid #10222e;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 13px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+QPushButton#micButton {
+  background-color: #00d4ff;
+  color: #001018;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+}
+
+QPushButton#micButton:hover {
+  background-color: #33e0ff;
+}
+
+QPushButton#micButton:pressed {
+  background-color: #00a8cc;
+}
