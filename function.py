@@ -105,7 +105,7 @@ def parse_site_command(text: str):
 
     return None
 def take_screenshot():
-    folder = r"C:\Users\MSI THIN 15\Pictures\Screenshots"
+    folder = os.path.join(os.path.expanduser("~"), "Pictures", "Screenshots")
     if not os.path.exists(folder):
         os.makedirs(folder, exist_ok=True)
     path = os.path.join(folder, "jarvis_screenshot.png")
