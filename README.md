@@ -2,7 +2,7 @@
 
 A Windows desktop voice assistant that listens, thinks, and talks back. It answers questions with an LLM, controls your PC with a safe set of commands, remembers things you tell it, and shows a live 3D waveform that reacts to its state. It understands both **English and Hindi**.
 
-![Jarvis screenshot](docs/screenshot.png)
+![Jarvis screenshot](docs/Screenshot 2026-11-15 132809)
 
 ## Features
 

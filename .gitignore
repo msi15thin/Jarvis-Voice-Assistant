@@ -12,3 +12,4 @@ jarvis_voice_*.mp3
 *.wav
 test_*.py
 .vscode/
+!docs/screenshot.png
