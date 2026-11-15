@@ -11,10 +11,10 @@ def route_command(command: str):
         return execute_function("get_battery_status")
     elif "time" in text:
         return execute_function("get_time")
-    elif "cpu" in text:
-        return execute_function("get_cpu_usage")
-    elif "ram" in text or "memory" in text:
-        return execute_function("get_ram_usage")
+   # elif "cpu" in text:
+   #     return execute_function("get_cpu_usage")
+   # elif "ram" in text or "memory" in text:
+   #     return execute_function("get_ram_usage")
     elif "screenshot" in text:
         return execute_function("take_screenshot")
     elif "open notepad" in text:
