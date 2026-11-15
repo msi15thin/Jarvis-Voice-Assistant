@@ -11,3 +11,4 @@ jarvis_voice_*.mp3
 *.mp3
 *.wav
 test_*.py
+.vscode/
